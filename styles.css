@@ -1,0 +1,159 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Section */
+.header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.header p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Key Features Section */
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.feature-item {
+    flex: 1;
+    max-width: 300px;
+    margin: 10px;
+    text-align: center;
+}
+
+/* FontAwesome Icon Styling */
+.feature-item i {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Image Styling for Non-Middle Sections */
+.feature-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/* Larger Image for Middle Item */
+.feature-item .large-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+}
+
+.feature-item h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.feature-item p {
+    margin-top: 10px;
+    color: #666;
+}
+
+/* Nutrition Section */
+.nutrition {
+    background: #fff;
+    padding: 40px;
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.nutrition .text {
+    flex: 1;
+    padding: 20px;
+}
+
+.nutrition .text h2 {
+    color: #333;
+}
+
+.nutrition .text ul {
+    margin-top: 10px;
+}
+
+.nutrition .text ul li {
+    margin: 5px 0;
+    color: #666;
+}
+
+.nutrition img {
+    flex: 1;
+    max-width: 400px;
+    padding: 20px;
+}
+
+/* Gastrointestinal Section */
+.gastro-section {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gastro-section div {
+    flex: 1;
+    margin: 10px;
+}
+
+.gastro-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.gastro-section h3 {
+    margin-top: 10px;
+    color: #333;
+}
+
+.gastro-section p {
+    color: #666;
+}
+
+/* Call to Action */
+.cta {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.cta button {
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.cta button:hover {
+    background-color: #e64a19;
+}
